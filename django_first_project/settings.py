@@ -16,10 +16,6 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent
 
 # SETTINGS_PATH = os.path.dirname(os.path.dirname(__file__))
-print(BASE_DIR)
-print('JADSOL:KJD:KLASJL:KAJSLDK')
-print(os.path.join(BASE_DIR, '\\templates'))
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
