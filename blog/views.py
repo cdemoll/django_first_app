@@ -4,11 +4,7 @@ from django.shortcuts import render
 def index(requests):
     return render(requests, 'blog/index.html')
 
-def article01(requests):
-    return render(requests, 'blog/article01.html')
-
-def article02(requests):
-    return render(requests, 'blog/article02.html')
-
-def article03(requests):
-    return render(requests, 'blog/article03.html')
+def article(requests, numero_article):
+    if numero_article in ['01','02', '03']:
+        return render(requests, f"blog/article{numero_article}.html")
+    return render(requests, f"blog/article_not_found.html")
