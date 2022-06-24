@@ -8,6 +8,9 @@ Discovering Django following a basic tutorial : https://www.youtube.com/watch?v=
 -Views  
 
 
+-Templates  
+
+
 -Routing  
 
 
